@@ -62,7 +62,7 @@ Or
 cd catkin_ws/src/joint_control/scripts
 python3 joint_pick_and_place_cube_position.py
 ```
-This script control the robot by given joint angle values. It moves the UR10e to pick up position and after picking the object moves the robot to drop off zone. finally when the task is completed, the robot returns to the home position. As well it is publishing the cube's position and "up" vector every 500 ms.
+This script control the robot by given joint angle values. It moves the UR10e to pick up position and after picking the object moves the robot to drop off zone. finally when the task is completed, the robot returns to the home position. As well it is publishing the cube's position.
 
 4. **Run the Cartesian Position Control Script**
 ```
@@ -73,11 +73,11 @@ Or
 cd catkin_ws/src/cartesian_control/scripts
 python3 cartesian_position_control.py
 ```
-This script control the robot by given cartesian positions. It moves the UR10e to pick up position and after picking the object moves the robot to drop off zone. finally when the task is completed, the robot returns to the home position. As well it is publishing the cube's position and "up" vector every 500 ms.
+This script control the robot by given cartesian positions. It moves the UR10e to pick up position and after picking the object moves the robot to drop off zone. finally when the task is completed, the robot returns to the home position. As well it is publishing the cube's position.
 
 # Extra attached documents
 
-The Design Proposal for the Pick and Place Solution_Vention.pdf file contains the design Proposal and the justification of robot selection, gripper selection and calibration procedure.
-The "cartesian_position_control_pick_and_place.mp4" file is a short video of the robots pick and place task in gazebo simulation leveraging the cartesian position control.
-The "joint_position_control_pick_and_place.mp4" file is a short video of the robots pick and place task in gazebo simulation leveraging the joint position control.
-The "published_cartesian_positions.png" and "published_joint_positions.png" are two screenshots of the terminal from requested output positions.
+- The Design Proposal for the Pick and Place Solution_Vention.pdf file contains the design Proposal and the justification of robot selection, gripper selection and calibration procedure.
+- The "cartesian_position_control_pick_and_place.mp4" file is a short video of the robots pick and place task in gazebo simulation leveraging the cartesian position control.
+- The "joint_position_control_pick_and_place.mp4" file is a short video of the robots pick and place task in gazebo simulation leveraging the joint position control.
+- The "published_cartesian_positions.png" and "published_joint_positions.png" are two screenshots of the terminal from requested output positions.
